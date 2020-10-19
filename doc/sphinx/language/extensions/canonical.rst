@@ -173,7 +173,7 @@ Note that in practice the user may want to declare ``EQ.obj`` as a
 coercion, but we will not do that here.
 
 The following line tests that, when we assume a type ``e`` that is in
-theEQ class, we can relate two of its objects with ``==``.
+the ``EQ`` class, we can relate two of its objects with ``==``.
 
 .. coqtop:: all
 
@@ -374,7 +374,7 @@ type.
 
     Canonical Structure to_LE.
 
-We can now formulate out first theorem on the objects of the ``LEQ``
+We can now formulate our first theorem on the objects of the ``LEQ``
 structure.
 
 .. coqtop:: all
